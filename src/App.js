@@ -1,4 +1,5 @@
 import React from 'react';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar/index.js'
@@ -6,6 +7,7 @@ import Navbar from './components/navbar/index.js'
 function App() {
   return (
     <>
+    <Router>
     <Navbar/>
     <div className="App">
       <header className="App-header">
@@ -23,6 +25,7 @@ function App() {
         </a>
       </header>
     </div>
+    </Router>
     </>
   );
 }
