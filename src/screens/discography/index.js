@@ -1,12 +1,17 @@
 import React, {Component} from 'react';
+import logo from '../../logo.svg';
 import './style.css';
 
 class Discography extends Component {
     render () {
         return (
             <>
+            <div className="App">
+            <header className="App-header">
+              <img src={logo} className="App-logo" alt="logo" />
+              <div className="container">
             <div className="Jumbotron">
-            <h1>This is the Discography page</h1>
+                <h1>This is the Discography page</h1>
             </div>
             <div>
             <iframe src="https://bandcamp.com/EmbeddedPlayer/track=417987299/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless>
@@ -16,8 +21,11 @@ class Discography extends Component {
             <iframe src="https://bandcamp.com/EmbeddedPlayer/album=3689248723/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless>
                 <a href="http://littlun.bandcamp.com/album/sentient-youth">Sentient Youth by littlun</a></iframe>
             </div>
+              </div>
+            </header>
+            </div>
             </>
-        )
+        );
     }
 }
 
