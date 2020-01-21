@@ -5,12 +5,25 @@ class Contact extends Component {
     render () {
         return (
             <>
+            <div className="App">
+            <header className="App-header">
+              <img src={logo} className="App-logo" alt="logo" />
+              <div className="container">
             <div className="Jumbotron">
-            <h1>This is the contact page</h1>
+                <h1>This is the Contact page</h1>
+            </div>
+            <div>
+                <p>Email: littlunmusic@gmail.com</p>
+                <p>Phone: 454-454-4554</p>
+                <p>Other misc social media</p>
+              </div>
+            </header>
             </div>
             </>
-        )
+        );
     }
 }
+
+
 
 export default Contact;
