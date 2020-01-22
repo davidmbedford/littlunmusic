@@ -7,11 +7,9 @@ function Contact() {
         <>
             <div className="App">
                 <div className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
+                    {/* <img src={logo} className="App-logo" alt="logo" /> */}
                     <div className="container">
-                        <div className="Jumbotron">
-                            <h1>This is the Contact page</h1>
-                        </div>
+                        <h1>Contact</h1>
                         <div>
                             <p>Email: littlunmusic@gmail.com</p>
                             <p>Phone: 454-454-4554</p>

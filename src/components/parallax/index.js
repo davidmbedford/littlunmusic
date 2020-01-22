@@ -15,9 +15,17 @@ class Parallax extends Component {
         return (
           <>
             <div className="parallax-container paraMain">
-                <div className="parallax">
-                    <img className="headImage" src={grave}></img>
+              <div className="container">
+                <div className="row">
+                  <div className="col s12 titleStyle">
+                    <h1>littlun</h1>
+                  </div>
                 </div>
+              </div>
+
+              <div className="parallax">
+                <img className="headImage" src={grave}></img>
+              </div>
             </div>
           </>
         )

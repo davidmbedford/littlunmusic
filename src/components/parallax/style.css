@@ -10,3 +10,18 @@
     position: relative;
     bottom: 300vh;
 }
+
+.titleStyle {
+    color: white;
+    font-family: 'Gravitas One', cursive;
+    font-size: 30vw;
+}
+
+/* font-family: 'Roboto Mono', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Alata', sans-serif;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Girassol', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Gravitas One', cursive;
+font-family: 'Rakkas', cursive; */
