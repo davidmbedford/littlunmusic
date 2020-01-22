@@ -12,7 +12,7 @@ function Discography() {
                         <div className="Jumbotron">
                             <h1>This is the Discography page</h1>
                         </div>
-                        <div>
+                        <div className="container center">
                             <iframe src="https://bandcamp.com/EmbeddedPlayer/track=417987299/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless>
                                 <a href="http://littlun.bandcamp.com/track/forest-circles">forest circles by littlun</a></iframe>
                             <iframe src="https://bandcamp.com/EmbeddedPlayer/track=1093888758/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless>
