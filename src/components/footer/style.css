@@ -1,0 +1,13 @@
+.fab {
+    padding-left: 2vw;
+}
+
+#footertop {
+    background-color: rgb(0, 0, 0, 0.8);
+    font-size: 1em;
+    font-family: 'Alata', sans-serif;
+}
+
+#footerbottom {
+    background-color:  rgb(0, 0, 0, 1.0);
+}
