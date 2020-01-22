@@ -17,7 +17,7 @@ class Navbar extends Component {
             <nav>
             <div className="nav-wrapper">
               <a href="" className="brand-logo right">.</a>
-              <a href="" data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+              <a href="" data-target="slide-out" className="sidenav-trigger"><i className="material-icons" id="menuicon">menu</i></a>
               <div className="container">
               <ul id="nav-mobile" className="left hide-on-med-and-down">
                 <li><Link to='/'>Home</Link></li>

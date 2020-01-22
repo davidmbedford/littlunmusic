@@ -3,11 +3,17 @@ nav {
     color: black;
 }
 
-nav ul li a {
+nav ul li a,
+ul.sidenav li a {
     color: black;
     font-weight: 800;
     font-family: 'Alata', sans-serif;
 }
+
+#menuicon {
+    color: black;
+}
+
 
 /* font-family: 'Roboto Mono', monospace;
 font-family: 'Playfair Display', serif;
