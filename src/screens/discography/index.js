@@ -6,7 +6,7 @@ function Discography() {
     return (
         <>
             <div className="App">
-                <header className="App-header">
+                <div className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <div className="container">
                         <div className="Jumbotron">
@@ -21,7 +21,7 @@ function Discography() {
                                 <a href="http://littlun.bandcamp.com/album/sentient-youth">Sentient Youth by littlun</a></iframe>
                         </div>
                     </div>
-                </header>
+                </div>
             </div>
         </>
     );

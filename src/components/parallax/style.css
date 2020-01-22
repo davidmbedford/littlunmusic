@@ -1,5 +1,5 @@
-.parallax {
-    opacity: 0.8;
+.paraMain {
+    opacity: 1.0;
     width: 100%;
     height: 80vh;;
     padding: 0%;
@@ -8,4 +8,5 @@
 
 .headImage {
     position: relative;
+    bottom: 300vh;
 }

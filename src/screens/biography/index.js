@@ -5,7 +5,7 @@ import './style.css';
 function Biography() {
     return (
         <div className="App">
-            <header className="App-header">
+            <div className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <div className="container">
                     <p> Molly White is the lyrical and melodic wave of awesomeness that is Littlun. Long live Littlun, the lovliest.
@@ -27,7 +27,7 @@ function Biography() {
                         nisl sem a mauris. Nam nec convallis diam. Aliquam dignissim arcu eu mauris egestas dignissim. Nam vehicula porta tortor
                         a feugiat. Ut tincidunt leo eget tortor tincidunt lacinia. Aliquam tempor nulla bibendum, ultrices neque ut, hendrerit odio.</p>
                 </div>
-            </header>
+            </div>
         </div>
     );
 };

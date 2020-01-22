@@ -6,7 +6,7 @@ function Contact() {
     return (
         <>
             <div className="App">
-                <header className="App-header">
+                <div className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <div className="container">
                         <div className="Jumbotron">
@@ -18,7 +18,7 @@ function Contact() {
                             <p>Other misc social media</p>
                         </div>
                     </div>
-                </header>
+                </div>
             </div>
         </>
     );

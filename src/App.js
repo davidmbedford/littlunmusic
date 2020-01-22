@@ -15,16 +15,12 @@ function App() {
     <Router>
     <Parallax />
     <Navbar />
-
-      <div className="container">
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/biography' component={Biography} />
           <Route exact path='/discography' component={Discography} />
           <Route exact path='/contact' component={Contact} />
         </Switch>
-      </div>
-
     <Footer />
     </Router>
     </>

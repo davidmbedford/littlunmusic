@@ -14,11 +14,7 @@ class Parallax extends Component {
     render() {
         return (
           <>
-            {/* <div className="container-fluid parallax">
-               <img className="headImage" src={grave}></img>
-            </div> */}
-
-            <div className="parallax-container">
+            <div className="parallax-container paraMain">
                 <div className="parallax">
                     <img className="headImage" src={grave}></img>
                 </div>
