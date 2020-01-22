@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import logo from '../../logo.svg';
+import headshot from '../../assets/images/headshot.jpg';
 import './style.css';
 
 function Biography() {
     return (
         <div className="App">
             <div className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+                <img src={headshot} className="headshot" alt="logo" />
                 <div className="container">
                     <p> Molly White is the lyrical and melodic wave of awesomeness that is Littlun. Long live Littlun, the lovliest.
                         Huzzaqh! Heres some latin filler... </p>

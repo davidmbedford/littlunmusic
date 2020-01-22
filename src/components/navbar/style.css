@@ -5,5 +5,15 @@ nav {
 
 nav ul li a {
     color: black;
-    font-weight: 600;
+    font-weight: 800;
+    font-family: 'Roboto Mono', monospace;
 }
+
+/* font-family: 'Roboto Mono', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Alata', sans-serif;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Girassol', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Gravitas One', cursive;
+font-family: 'Rakkas', cursive; */
