@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import piano from '../../assets/images/Piano.svg';
 import './style.css';
 
