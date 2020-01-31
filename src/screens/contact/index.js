@@ -6,13 +6,17 @@ function Contact() {
         <>
             <div className="App">
                 <div className="App-header">
-                    {/* <img src={logo} className="App-logo" alt="logo" /> */}
                     <div className="container">
                         <h1>Contact</h1>
+                        <br/>
                         <div>
-                            <p>Email: littlunmusic@gmail.com</p>
-                            <p>Phone: 454-454-4554</p>
-                            <p>Other misc social media</p>
+                            <p><span className="strong">Email:</span> littlunmusic@gmail.com</p>
+                            <p><span className="strong">Phone:</span> 454-454-4554</p>
+                            <p><span className="strong">Misc social media:</span>
+                                <a className="black-text text-lighten-4" href="https://www.facebook.com/littlunmusic/"><i className="fab fa-facebook fa-lg"></i></a>
+                                <a className="black-text text-lighten-4" href="https://twitter.com/littlunmusic"><i className="fab fa-twitter fa-lg"></i></a>
+                                <a className="black-text text-lighten-4" href="https://www.instagram.com/littlunmusic/?hl=en"><i className="fab fa-instagram fa-lg"></i></a>
+                            </p>
                         </div>
                     </div>
                 </div>
