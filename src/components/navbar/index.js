@@ -23,6 +23,7 @@ class Navbar extends Component {
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/biography'>Bio</Link></li>
                 <li><Link to='/discography'>Discography</Link></li>
+                <li><Link to='/shows'>Upcoming Shows</Link></li>
                 <li><Link to='/contact'>Contact</Link></li>
               </ul>
               </div>
@@ -33,6 +34,7 @@ class Navbar extends Component {
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/biography'>Bio</Link></li>
                 <li><Link to='/discography'>Discography</Link></li>
+                <li><Link to='/shows'>Upcoming Shows</Link></li>
                 <li><Link to='/contact'>Contact</Link></li>
             </ul>
           </>
