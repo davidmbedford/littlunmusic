@@ -8,8 +8,10 @@ function Biography() {
             <div className="App-header">
                 <div className="container bio">
                 <img src={headshot} className="headshot" alt="logo" />
-                    <p> Molly White is the lyrical and melodic wave of awesomeness that is Littlun. Long live Littlun, the lovliest.
-                        Huzzaqh! Heres some latin filler... </p>
+                    <p> Molly has been writing under the name littlun for a few years now. Their music features 
+                        classically influenced melodies and dark folk motifs. A full band formed around them in 2019 
+                        to fill out the new songs. You can catch littlun play at local venues in Philly such as 
+                        World Cafe Live, and stream them on apps such as Spotify.</p>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra malesuada tortor, mollis molestie
                         nisi vehicula sit amet. Cras dapibus commodo feugiat. Maecenas ut finibus urna. Vivamus leo dui, venenatis eu elit sed,
                         rhoncus finibus magna. Nam maximus, arcu non molestie congue, nisi nisi suscipit risus, at aliquet ligula lorem sed massa.
