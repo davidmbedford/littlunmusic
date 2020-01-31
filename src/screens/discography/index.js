@@ -28,6 +28,15 @@ function Discography() {
                                 </iframe>
                             </div>
                         </div>
+                        <div className="container center">
+                            <a href="https://open.spotify.com/artist/3VUOrU0dA3ILMjNbVHdAEm"><i class="fab fa-spotify"></i></a>
+                            <a href="https://soundcloud.com/littlunmusic"><i class="fab fa-soundcloud"></i></a>
+                            <a href="https://music.apple.com/us/artist/littlun/1440493727"><i class="fab fa-apple"></i></a>
+                            <a href="https://www.youtube.com/watch?v=_A9Y2zpWtqI"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.amazon.com/House-of-Ghosts/dp/B07MG8XC23/ref=sr_1_1?keywords=Littlun&qid=1580449776&s=dmusic&search-type=ss&sr=1-1">
+                                <i class="fab fa-amazon"></i></a>
+                            <a href="https://littlun.bandcamp.com/"><i class="fab fa-bandcamp"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
