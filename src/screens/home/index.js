@@ -8,8 +8,8 @@ function Home() {
       <div className="App-header">
         <img src={piano} className="headshot" alt="logo" />
         <div className="container">
-          <p> This is the home of littlun, a band of loving youth led by Molly Lynn White. Welcome.</p>
-          <p> They're from Philadelphia and formed under Molly's songwriting efforts in 2018. Listen to their music and catch them playing live near you real soon.</p>
+          <p> This is the home of littlun, a band of loving young multi-instrumentalists led by singer/songwriter Molly Lynn White.</p>
+          <p> Welcome. Here you can stream their music, find upcoming shows, and reach out to them for booking requests. </p>
         </div>
       </div>
     </div>
