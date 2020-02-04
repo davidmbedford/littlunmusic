@@ -14,8 +14,8 @@ function App() {
   return (
     <>
     <Router>
-    <Parallax />
     <Navbar />
+    <Parallax />
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/biography' component={Biography} />
