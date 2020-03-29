@@ -1,7 +1,12 @@
 nav {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
+  opacity: 70%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
 
 nav ul li a,
 ul.sidenav li a {
@@ -13,7 +18,6 @@ ul.sidenav li a {
 #menuicon {
     color: black;
 }
-
 
 /* font-family: 'Roboto Mono', monospace;
 font-family: 'Playfair Display', serif;

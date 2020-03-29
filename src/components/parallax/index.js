@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import grave from '../../assets/images/graveyard.jpg';
 import './style.css';
+import Navbar from '../navbar/index.js'; 
 
 class Parallax extends Component {
     componentDidMount() {
@@ -15,6 +16,7 @@ class Parallax extends Component {
         return (
           <>
             <div className="parallax-container paraMain">
+              <Navbar/>
               <div className="container">
                 <div className="row">
                   <div className="col s12 titleStyle">
