@@ -20,7 +20,7 @@ class Parallax extends Component {
               <div className="container">
                 <div className="row">
                   <div className="col s12 titleStyle">
-                    <h1>littlun</h1>
+                    <h1 id="title">littlun</h1>
                   </div>
                 </div>
               </div>
