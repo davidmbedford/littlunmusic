@@ -21,7 +21,6 @@ class Navbar extends Component {
             <div className="container">
               <ul id="nav-mobile" className="left hide-on-med-and-down">
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='/biography'>Bio</Link></li>
                 <li><Link to='/discography'>Discography</Link></li>
                 <li><Link to='/shows'>Upcoming Shows</Link></li>
                 <li><Link to='/contact'>Contact</Link></li>
@@ -32,7 +31,6 @@ class Navbar extends Component {
 
         <ul id="slide-out" className="sidenav">
           <li><Link to='/'>Home</Link></li>
-          <li><Link to='/biography'>Bio</Link></li>
           <li><Link to='/discography'>Discography</Link></li>
           <li><Link to='/shows'>Upcoming Shows</Link></li>
           <li><Link to='/contact'>Contact</Link></li>

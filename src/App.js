@@ -4,7 +4,6 @@ import './App.css';
 import Parallax from './components/parallax/index.js';
 import Footer from './components/footer/index.js';
 import Home from './screens/home/index.js';
-import Biography from './screens/biography/index.js';
 import Shows from './screens/shows/index.js'
 import Discography from './screens/discography/index.js';
 import Contact from './screens/contact/index.js';
@@ -16,7 +15,6 @@ function App() {
     <Parallax />
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/biography' component={Biography} />
           <Route exact path='/discography' component={Discography} />
           <Route exact path='/shows' component={Shows} />
           <Route exact path='/contact' component={Contact} />

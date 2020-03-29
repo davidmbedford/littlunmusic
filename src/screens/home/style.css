@@ -1,0 +1,13 @@
+.headshot {
+  height: 40vmin;
+  float: left;
+  border-radius: 5px;
+}
+
+.bio {
+  margin-top: 5vh;
+}
+
+.bio p {
+  margin-top: 0%;
+}
