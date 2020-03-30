@@ -8,7 +8,7 @@ function Discography() {
                 <div className="App-header">
                     <div className="container">
                         <h1>Discography</h1>
-                        <div className="container center">
+                        <div className="container center discogbox">
                             <div className="row center">
                                 <p><span className="strong">Album Name:</span> Fallow (single) || <span className="strong">Release Date:</span> Mar. 2019 </p>
                                 <iframe src="https://bandcamp.com/EmbeddedPlayer/track=417987299/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless>
@@ -32,24 +32,24 @@ function Discography() {
                             <div className="row center">
 
                                 <div className="col s4 l2">    
-                                    <a className="grey-text discogIcons" href="https://open.spotify.com/artist/3VUOrU0dA3ILMjNbVHdAEm"><i class="fab fa-spotify"></i></a>
+                                    <a className="grey-text discogIcons" href="https://open.spotify.com/artist/3VUOrU0dA3ILMjNbVHdAEm"><i class="fab fa-spotify musicLinks"></i></a>
                                 </div> 
                                 <div className="col s4 l2">    
-                                    <a className="grey-text discogIcons" href="https://soundcloud.com/littlunmusic"><i class="fab fa-soundcloud"></i></a>
+                                    <a className="grey-text discogIcons" href="https://soundcloud.com/littlunmusic"><i class="fab fa-soundcloud musicLinks"></i></a>
                                 </div>
                                 <div className="col s4 l2">    
-                                    <a className="grey-text discogIcons" href="https://music.apple.com/us/artist/littlun/1440493727"><i class="fab fa-apple"></i></a>
+                                    <a className="grey-text discogIcons" href="https://music.apple.com/us/artist/littlun/1440493727"><i class="fab fa-apple musicLinks"></i></a>
                                 </div>
                                 <div className="col s4 l2">    
-                                    <a className="grey-text discogIcons" href="https://www.youtube.com/watch?v=_A9Y2zpWtqI"><i class="fab fa-youtube"></i></a>
+                                    <a className="grey-text discogIcons" href="https://www.youtube.com/watch?v=_A9Y2zpWtqI"><i class="fab fa-youtube musicLinks"></i></a>
                                 </div>
                                 <div className="col s4 l2">    
                                     <a className="grey-text discogIcons" href="https://www.amazon.com/House-of-Ghosts/dp/B07MG8XC23/ref=sr_1_1?keywords=Littlun&qid=1580449776&s=dmusic&search-type=ss&sr=1-1">
-                                        <i class="fab fa-amazon"></i>
+                                        <i class="fab fa-amazon musicLinks"></i>
                                     </a>
                                 </div>
                                 <div className="col s4 l2">
-                                    <a className="grey-text discogIcons" href="https://littlun.bandcamp.com/"><i class="fab fa-bandcamp"></i></a>
+                                    <a className="grey-text discogIcons" href="https://littlun.bandcamp.com/"><i class="fab fa-bandcamp musicLinks"></i></a>
                                 </div>
                                 
                             </div>
