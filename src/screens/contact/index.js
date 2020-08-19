@@ -21,7 +21,7 @@ function Contact() {
                             </p>
                           </div>
                           <div className="col s6">
-                            <img src={piano} className="headshot" alt="logo" /> 
+                            <img src={piano} id="piano" alt="logo" /> 
                           </div>
                         </div>
                     </div>
