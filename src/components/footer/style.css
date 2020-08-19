@@ -19,3 +19,19 @@
 .socialLinks:hover {
   color: grey;
 }
+
+#dmb {
+  color: white
+}
+
+.discogIcons {
+  font-size: 4rem;
+}
+
+.musicLinks {
+transition: color 0.5s ease;
+}
+
+.musicLinks:hover {
+color: black;
+}

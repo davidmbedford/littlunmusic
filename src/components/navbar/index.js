@@ -16,16 +16,14 @@ class Navbar extends Component {
       <>
         <nav>
           <div className="nav-wrapper">
-            <a href="" className="brand-logo right">.</a>
-            <a href="" data-target="slide-out" className="sidenav-trigger"><i className="material-icons" id="menuicon">menu</i></a>
-            <div className="container">
-              <ul id="nav-mobile" className="left hide-on-med-and-down">
+          <div className="brand-logo hide-on-med-and-down"><i className="fas fa-compact-disc"></i></div>
+            <a href="#" data-target="slide-out" className="sidenav-trigger"><i className="material-icons" id="menuicon">menu</i></a>
+              <ul className="right hide-on-med-and-down">
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/discography'>Discography</Link></li>
                 <li><Link to='/shows'>Upcoming Shows</Link></li>
                 <li><Link to='/contact'>Contact</Link></li>
               </ul>
-            </div>
           </div>
         </nav>
 
