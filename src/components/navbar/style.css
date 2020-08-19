@@ -8,6 +8,10 @@ nav {
   z-index: 2;
 }
 
+nav .brand-logo {
+  color: black;
+  padding-left: 10px;
+}
 
 nav ul li a,
 ul.sidenav li a {

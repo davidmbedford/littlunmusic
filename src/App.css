@@ -15,17 +15,6 @@ font-family: 'Rakkas', cursive; */
   text-align: left;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 200s linear;
-  }
-}
-
 .App-header {
   background-color: white;
   min-height: 95vh;
@@ -35,17 +24,20 @@ font-family: 'Rakkas', cursive; */
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
+} 
+
+@media (prefers-reduced-motion: no-preference) {
+  .brand-logo {
+    animation: rotation infinite 5s linear;
+    transform-origin: 45% 50%;
+  }
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes rotation {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} 
