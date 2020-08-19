@@ -11,7 +11,7 @@ function Contact() {
                         <h1>Contact</h1>
                         <br/>
                         <div className="row">
-                          <div className="col s6">
+                          <div className="col m6 s12">
                             <p><span className="strong">Email:</span> littlunmusic@gmail.com</p>
                             <p><span className="strong">Phone:</span> 856-430-7931</p>
                             <p><span className="strong">Misc social media:</span>
@@ -20,7 +20,7 @@ function Contact() {
                                 <a className="black-text text-lighten-4" href="https://www.instagram.com/littlunmusic/?hl=en"><i className="fab fa-instagram fa-lg socialLinks"></i></a>
                             </p>
                           </div>
-                          <div className="col s6">
+                          <div className="col m6 s12">
                             <img src={piano} id="piano" alt="logo" /> 
                           </div>
                         </div>
