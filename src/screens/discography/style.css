@@ -9,18 +9,6 @@ h1,
     font-weight: bold;
 }
 
-.discogIcons {
-    font-size: 4rem;
-}
-
-.musicLinks {
-  transition: color 0.5s ease;
-}
-
-.musicLinks:hover {
-  color: black;
-}
-
 .discogbox {
   background-color: black;
   color: white;
