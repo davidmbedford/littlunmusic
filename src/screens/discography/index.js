@@ -12,7 +12,7 @@ function Discography() {
 
               <div className="row center">
                 <p><span className="strong">Album Name:</span> Pandemic Dream Journal || <span className="strong">Release Date:</span> Jun. 2020 </p>
-                <iframe src="https://bandcamp.com/EmbeddedPlayer/album=1425014592/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless>
+                <iframe src="https://bandcamp.com/EmbeddedPlayer/album=1425014592/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless>
                   <a href="http://littlun.bandcamp.com/album/pandemic-dream-journal">pandemic dream journal by littlun</a>
                 </iframe>
               </div>
